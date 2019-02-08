@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+section {
+    width: 90%;
+    height: 75vh;
+    margin: auto;
+    margin-top: 2.5vh;
+    background-color: aqua
+}
