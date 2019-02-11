@@ -1,0 +1,11 @@
+{
+  "name": "uniao-dos-escoteiros-do-brasil",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:deppbrazil/uniao-dos-escoteiros-do-brasil.git",
+  "author": "Mir Carvalho",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
