@@ -1,0 +1,17 @@
+@font-face {
+    font-family: bebas-neue-light;
+    src: url('font/bebas/bebas-neue-light.ttf');
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('font/bebas/bebas.ttf');
+}
+
+h1 {
+    font-family: bebas;
+}
+
+p, a, button {
+    font-family: bebas-neue-light;
+}
