@@ -8,17 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="stylesheet" type="text/css" href="fonts.css" />
+    <link rel="stylesheet" type="text/css" href="media-queries.css" />
     <script type="text/javascript" src="function.js"></script>
 </head>
 
 <body>
-    <section>
-        <h1>Seja Bem-vindo!</h1>
+    <section class="section-index">
+        <h1 class="feedback-screen">Ah... essa resolução é muito pequena para visualização do conteúdo :(</h1>
+        <div class="div-wrapper-index">
+            <div class="div-content-index">
+                <h1 class="h1-index">Seja Bem-vindo!</h1>
+                <h2 class="h2-index">Assista as palavras do nosso Vice-Presidente:</h2>
+                <h3 class="h3-index">Nome do Vice-Presidente</h3>
+            </div>
+        </div> 
         <video controls>
             <source src="" type="video/mp4">
             <source src="" type="video/ogg">
         </video>
-        <button onclick="goContent()">Prosseguir</button>
+        <button onclick="goContent()">Entrar no curso</button>
     </section>
 </body>
 </html>

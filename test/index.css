@@ -4,12 +4,16 @@
     overflow-x: hidden;
 }
 
-h1 {
-    font-size: 6vw;
-    line-height: 100px;
+html, body {
+    font-size: 10px;
+    line-height: 10px;
 }
 
-section {
+.feedback-screen {
+    display: none;
+}
+
+.section-index {
     width: 100vw;
     height: 100vh;
     color: white;
@@ -22,15 +26,46 @@ section {
     background-color: rgb(255, 115, 0);
 }
 
+.div-wrapper-index {
+    background-color: rgba(255, 255, 255, 0.322);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+.div-content-index {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+}
+
+.h1-index {
+    font-size: 6em;
+    line-height: 65px;
+}
+
+.h2-index {
+    font-size: 1.8;
+    line-height: 23px;
+}
+
+.h3-index {
+    font-size: 1.6em;
+    line-height: 21px;
+}
+
 video {
-    width: 40%;
+    width: 50%;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 button {
-    width: 40%;
+    width: 50%;
     height: 50px;
     cursor: pointer;    
     border-radius: 5px;
