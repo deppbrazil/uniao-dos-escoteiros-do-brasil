@@ -1,5 +1,11 @@
 @media screen and (max-width:319px) {
-    .div-wrapper-index, .div-content-index, .h1-index, .h2-index, .h3-index, video, button {
+    .container-text,
+    .wrapper-text,
+    .h1-index,
+    .h2-index,
+    .h3-index,
+    video,
+    button {
         display: none;
     }
 
@@ -14,14 +20,18 @@
 @media screen and (min-width:320px) {
     
     /* index */
-   .div-wrapper-index {
-        width: 100%;
-        height: 30vh;
-        background-color: rgba(255, 255, 255, 0);   
+    .wrapper {
+        display: block;
+        margin-top: 10vh;
     }
 
-    .div-content-index {
-        width: 95%;
+   .container-text {
+        width: 100%;
+        height: auto;   
+    }
+
+    .wrapper-text {
+        width: 100%;
     }
 
     .h1-index {
@@ -42,12 +52,12 @@
     }
 
     video {
-        width: 95%;
+        width: 100%;
         height: auto;
     }
 
     button {
-        width: 95%;
+        width: 100%;
         font-size: 1.6em;
         line-height: 24px;
         color: #ffffff;
@@ -62,38 +72,19 @@
 
 @media screen and (min-width:768px) {
     /* index */
-    .div-content-index {
-        width: 75%;
-    }
-    
-    video {
-        width: 75%;
-        height: auto;
-    }
-
-    button {
-        width: 75%;
+    .wrapper {
+        width: 80%;
     }
  }
 
 @media screen and (min-width:992px) {
     
     /* index */
-    .div-content-index {
-        width: 60%;
-    }
-    
-    video {
-        width: 60%;
-        height: auto;
+    .wrapper {
+        width: 50%;
     }
 
     button {
-        width: 60%;
-        height: 50px;
-        cursor: pointer;    
-        border-radius: 5px;
-        font-size: 1.8em;
         color: rgb(185, 83, 0);
         border: 0px solid rgb(8, 78, 23);
         background-color: rgb(255, 142, 49);
@@ -112,33 +103,7 @@
 
 @media only screen and (min-width: 1382px) {
     /* index */
-    .div-content-index {
+    .wrapper {
         width: 40%;
     }
-    
-    video {
-        width: 40%;
-        height: auto;
-    }
-
-    button {
-        width: 40%;
-        height: 50px;
-        cursor: pointer;    
-        border-radius: 5px;
-        font-size: 1.8em;
-        color: rgb(185, 83, 0);
-        border: 0px solid rgb(8, 78, 23);
-        background-color: rgb(255, 142, 49);
-        box-shadow: 1px 1px 0.5px #5a5a5a;
-        -webkit-transition: 1s ease-in-out; // navegadores webkit, como Safari e Chrome
-        -moz-transition: 1s ease-in-out; // Firefox
-        -o-transition: 1s ease-in-out; // Opera
-    }
-    
-    button:hover {
-        color: #ffffff;
-        border: 1px solid #ffffff;
-        background-color: rgb(255, 115, 0);
-    } 
  } 
