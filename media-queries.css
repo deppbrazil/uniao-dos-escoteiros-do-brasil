@@ -26,27 +26,30 @@
 
     .h1-index {
         font-size: 4em;
-        line-height: 65px;
+        line-height: 48px;
     }
 
     .h2-index {
-        font-size: 2em;
-        line-height: 25px;
+        font-size: 1.8em;
+        line-height: 26px;
+        padding: 5px;
     }
 
     .h3-index {
-        font-size: 2.5em;
-        line-height: 35px;
+        font-size: 1.6em;
+        line-height: 24px;
+        padding: 5px;
     }
 
     video {
         width: 95%;
-        height: 40vh;
+        height: 35vh;
     }
 
     button {
         width: 95%;
-        font-size: 2em;
+        font-size: 1.6em;
+        line-height: 24px;
         color: #ffffff;
         border: 1px solid #ffffff;
         background-color: rgb(255, 115, 0);
