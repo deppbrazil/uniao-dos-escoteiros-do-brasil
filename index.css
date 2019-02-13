@@ -21,6 +21,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: flex-start;
     background-image: url("assets/images/tinypng/background-init.jpg");
     background-size: cover;
     background-color: rgb(255, 115, 0);
@@ -34,6 +35,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: flex-start;
 }  
 
 .div-content-index {
