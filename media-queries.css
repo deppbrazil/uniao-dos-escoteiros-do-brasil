@@ -73,7 +73,9 @@
 @media screen and (min-width:768px) {
     /* index */
     .wrapper {
-        width: 80%;
+        width: 60%;
+        margin-top: 2vh;
+
     }
  }
 

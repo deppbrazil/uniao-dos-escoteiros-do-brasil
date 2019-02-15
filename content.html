@@ -7,21 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="content.css" />
     <link rel="stylesheet" type="text/css" href="fonts.css" />
-    <script type="text/javascript" src="function.js"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $("html,body").animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 500);
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <header id="navbar">
+    <header>
         <div class="divisor"></div>
         <ul>
-            <li><a href="#m1">Como escrever projetos sociais</a></li>
-            <li><a href="#m2">Como captar recursos</a></li>
-            <li><a href="#m3">Como implementar projetos</a></li>
-            <li><a href="#m4">Como executar monitorar e avaliar projetos
-</a></li>
-            <li><a href="#m5">Como prestar contas</a></li>
-            <li><a href="#m6">Estratégia de comunicação e marketing para mobilizar recursos</a></li>
-            <li><a href="#m7">Conceito de direito: Como e porque escrever sua organização</a></li>
+            <li><a class="scroll" href="#m1">Módulo 1</a></li>
+            <li><a class="scroll" href="#m2">Módulo 2</a></li>
+            <li><a class="scroll" href="#m3">Módulo 3</a></li>
+            <li><a class="scroll" href="#m4">Módulo 4</a></li>
+            <li><a class="scroll" href="#m5">Módulo 5</a></li>
+            <li><a class="scroll" href="#m6">Módulo 6</a></li>
+            <li><a class="scroll" href="#m7">Módulo 7</a></li>
         </ul>
     </header>
     
@@ -61,19 +71,5 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id efficitur velit. Praesent feugiat nisi ac gravida hendrerit. Nunc in diam id orci rutrum faucibus non pharetra nulla. Nullam a nisl a dui molestie imperdiet. Curabitur dolor metus, laoreet id tellus vel, egestas mattis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue felis sit amet volutpat sodales. Etiam eu odio eu orci fringilla sollicitudin. Praesent id condimentum nibh, suscipit semper felis.</p>
         </section>
     </section>
-
-    <script>
-    // Menu small scroll //
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "10";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-    </script>
 </body>
 </html>

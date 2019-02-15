@@ -5,5 +5,7 @@
   "repository": "git@github.com:deppbrazil/uniao-dos-escoteiros-do-brasil.git",
   "author": "Mir Carvalho",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
