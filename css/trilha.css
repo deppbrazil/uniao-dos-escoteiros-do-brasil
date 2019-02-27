@@ -1,12 +1,26 @@
 body {
-    background-color: #cea47f;
+    background-image: url("../assets/images/tinypng/image-trilha.png");
+    background-size: cover;
+}
+
+.container-text-trilha {
+    width: 30%;
+    height: 100vh;
+    text-align: right;
+    background-color: #deba57be;
+}
+
+.text-trilha {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 50px;
+    transform: rotate(-90deg);
 }
 
 .background {
-    width: 80%;
-    background-color: #ddba9b;
-
+    width: 70%;
 }
+
 /* container lists */
 .container-lists {
     width: 90%;
@@ -119,8 +133,9 @@ body {
 
 .li-first-list:hover, .li-second-list:hover {
     cursor: pointer;
-    border-radius: 10px;
-    border: 1px solid #000000;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 0, 0.080);
 }
 
 .li-first-list:hover {

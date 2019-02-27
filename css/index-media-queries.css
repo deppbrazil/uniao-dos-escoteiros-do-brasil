@@ -1,4 +1,4 @@
-@media screen and (max-width:319px) {
+@media only screen and (max-width:319px) {
     .container-text,
     .wrapper-text,
     .h1-index,
@@ -11,36 +11,63 @@
 
     .feedback-screen {
         display: block;
-        font-size: 3em;
-        line-height: 35px;
+        font-size: 2.5em;
+        line-height: 30px;
         text-align: center;
+        padding: 10px;
+    }
+
+    .feedback-smile {
+        display: block;
+        font-size: 5em;
+        line-height: 50px;
+        text-align: center;
+        padding: 10px;
     }
 
     body .container {
         width: 100vw;
-        
     }
+
+    .wrapper {
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:520px) {
     .wrapper {
         width: 100%;
         margin: auto;
     }
-}
 
-@media screen and (min-width:320px) {
-    
+    .h1-index {
+        font-size: 4em;
+        line-height: 45px;
+        text-align: center;
+    }
 
+    .btn-enter {
+        width: 90%;
+        margin: auto;
+    }
+
+    .video {
+        
+    }
  }
 
-
-@media screen and (min-width:768px) {
-    
+@media only screen and (max-width:720px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+    }
  }
 
-@media screen and (min-width:992px) {
-    
-    
+ @media only screen and (max-width:992px) {
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
  }
-
-@media only screen and (min-width: 1382px) {
-    
- } 
