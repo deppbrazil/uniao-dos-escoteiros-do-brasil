@@ -1,0 +1,134 @@
+body {
+    background-color: #cea47f;
+}
+
+.background {
+    width: 80%;
+    background-color: #ddba9b;
+
+}
+/* container lists */
+.container-lists {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+/* first list */
+.first-list {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: auto; 
+}
+
+.li-first-list {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.bullet-first-list {
+    width: 2%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.item-first-list, .item-second-list {
+    width: 100%;
+    font-size: 1.8em;
+    line-height: 25px;
+    margin-left: 5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* second list */
+.second-list {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.li-second-list {
+    width: 200px;
+    height: 60px;
+    list-style: none;
+}
+
+.bullet-second-list {
+    width: 5%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.item-second-list {
+    font-size: 1.8em;
+    line-height: 23px;
+}
+
+/* bullets lists */ 
+.bullet-one {
+    background-color: #33004a;
+}
+
+.bullet-two {
+    background-color: #001781;
+}
+
+.bullet-three {
+    background-color: #004dff;
+}
+
+.bullet-four {
+    background-color: #00913d;
+}
+
+.bullet-five {
+    background-color: #ffef00;
+}
+
+.bullet-six {
+    background-color: #ff4000;
+}
+
+.bullet-seven {
+    background-color: #ff4000;
+}
+
+.bullet-eight {
+    background-color: #9b7000;
+}
+
+.bullet-nine {
+    background-color: #4f05a8;
+}
+
+/* hover list */
+.li-first-list, .li-second-list {
+    border: 1px solid transparent;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s ease-in-out; // navegadores webkit, como Safari e Chrome
+    -moz-transition: 0.2s ease-in-out; // Firefox
+    -o-transition: 0.2s ease-in-out; // Opera
+}
+
+.li-first-list:hover, .li-second-list:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.li-first-list:hover {
+    margin-left: 1%;
+    width: 99%;
+}
+
+.li-second-list:hover {
+    width: 195px;
+}
+

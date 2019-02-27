@@ -1,0 +1,26 @@
+@font-face {
+    font-family: roboto-black;
+    src: url('../font/roboto/roboto-black.ttf');
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url('../font/roboto/roboto-light.ttf');
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('../font/bebas/bebas.ttf')
+}
+
+h1 {
+    font-family: bebas;
+}
+
+a {
+    font-family: roboto-black;
+}
+
+p, h2, h3, button, .items, .feedback-screen {
+    font-family: roboto-light;
+}
