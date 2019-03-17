@@ -1,39 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>União dos Escoteiros do Brasil</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- my css -->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="css/index-media-queries.css" />
-    <link rel="stylesheet" type="text/css" href="css/main-media-queries.css" />
+    
+    <!-- css materialize-css -->
+    <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/material-icons/iconfont/material-icons.css" />
+
+    <!-- my js -->
     <script type="text/javascript" src="js/function.js"></script>
 </head>
 
-<body>
-    <section class="container">
-        <div class="wrapper">
-            <h1 alt="informativo de resolução de tela muito pequena" class="feedback-screen">Ah... essa resolução é muito pequena para visualização do conteúdo</h1>
-            <p alt="carinha triste" class="feedback-smile" text-align="center"> :(</p>
-            <div class="container-text">
-                
-                    <h1 class="h1-index">Bem-vindo!</h1>
-                    <h2 class="h2-index">Mobilização de Recursos do</h2>
-                    <h3 class="h3-index">Movimento Escoteiro</h3>
-               
+<body>                
+    <section>
+        <div>
+            <div class="container-small-screen">
+                <h2 alt="informativo: resolução de tela muito pequena" class="feedback-screen white-text">Ah... essa resolução é muito pequena para visualização do conteúdo</h2>
+                <p alt="smile carinha triste" class="feedback-smile white-text" text-align="center"> :(</p>
+            </div>
+            
+            <div class="container">
+                <h1 class="title right-align white-text">Bem-vindo!</h1>
+                <h5 class="right-align white-text flow-text">Mobilização de Recursos do</h5>
+                <h5 class="right-align white-text flow-text">Movimento Escoteiro</h5>
             </div> 
-            <video controls>
-                <source src="" type="video/mp4">
-                <source src="" type="video/ogg">
-            </video>
-        </div>
-        <div class="container-btn-enter">
-            <button class="btn-enter" onclick="goTrilha()">Começe sua trilha</button>
+            <div class="container">
+                <iframe src="https://player.vimeo.com/video/323104499" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="container">    
+                <button class="waves-effect waves-light btn card-panel hoverable" onclick="goTrilha()"><i class="material-icons right">send</i>Começe sua trilha</button>
+            </div>
         </div>
     </section>
+
+    <!-- js materialize-css -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
 </body>
 </html>

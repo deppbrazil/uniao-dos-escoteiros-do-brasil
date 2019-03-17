@@ -1,94 +1,25 @@
-.feedback-screen, .feedback-smile {
+.container-small-screen {
     display: none;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+body {
     background-image: url("../assets/images/tinypng/background-init.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.wrapper {
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    margin-right: 50px;
-    margin-bottom: 50px;
+.title {
+    font-size: 6vw;
 }
 
-.container-text {
+iframe {
+    border: 10px solid #000000;
+    background-color: #000000;
+    border-radius: 10px;
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    
-}  
-
-.h1-index {
-    font-size: 7em;
-    line-height: 75px;
-    text-align: center;
+    height: 50vh;
 }
 
-.h2-index, .h3-index {
-    font-size: 2.2em;
-    line-height: 28px;
+button {
+    background-color: orange !important;
 }
-
-
-video {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.container-btn-enter {
-    width: 100%;
-    height: auto;
-    padding: 5px;
-    position: fixed;
-    display: flex;
-    bottom: 0;
-    z-index: 9999;
-    margin-bottom: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.btn-enter {
-    width: auto;
-    height: auto;
-    padding: 10px;
-    margin-right: 50px;
-    cursor: pointer;    
-    border-radius: 5px;
-    font-size: 1.4em;
-    color: #ffffff;
-    border: 1px solid transparent;
-    box-shadow: 1px 1px 0px white;
-    text-transform: uppercase;
-    background-color: #280c50;
-    -webkit-transition: 0.4s ease-in-out; // navegadores webkit, como Safari e Chrome
-    -moz-transition: 0.4s ease-in-out; // Firefox
-    -o-transition: 0.4s ease-in-out; // Opera
-}
-
-.btn-enter:hover {
-    background-color: #703e49;
-    border: 1px solid #ffffff;
-    box-shadow: none;
-} 

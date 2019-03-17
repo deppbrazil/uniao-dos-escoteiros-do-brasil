@@ -13,14 +13,8 @@
     src: url('../font/bebas/bebas.ttf')
 }
 
+
 h1 {
     font-family: bebas;
 }
 
-a {
-    font-family: roboto-black;
-}
-
-p, h2, h3, button, .items, .feedback-screen {
-    font-family: roboto-light;
-}

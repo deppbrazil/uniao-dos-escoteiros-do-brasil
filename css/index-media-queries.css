@@ -1,18 +1,21 @@
 @media only screen and (max-width:319px) {
-    .container-text,
-    .wrapper-text,
-    .h1-index,
-    .h2-index,
-    .h3-index,
-    video,
-    button {
+    .container {
         display: none;
     }
-
+    
+    .container-small-screen {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .feedback-screen {
         display: block;
-        font-size: 2.5em;
-        line-height: 30px;
+        font-size: 2.3em;
+        line-height: 50px;
         text-align: center;
         padding: 10px;
     }
@@ -24,50 +27,4 @@
         text-align: center;
         padding: 10px;
     }
-
-    body .container {
-        width: 100vw;
-    }
-
-    .wrapper {
-        width: 100%;
-        margin: auto;
-        align-items: center;
-    }
 }
-
-@media only screen and (max-width:520px) {
-    .wrapper {
-        width: 100%;
-        margin: auto;
-    }
-
-    .h1-index {
-        font-size: 4em;
-        line-height: 45px;
-        text-align: center;
-    }
-
-    .btn-enter {
-        width: 90%;
-        margin: auto;
-    }
-
-    .video {
-        
-    }
- }
-
-@media only screen and (max-width:720px) {
-    .wrapper {
-        width: 90%;
-        margin: auto;
-    }
- }
-
- @media only screen and (max-width:992px) {
-    .wrapper {
-        width: 80%;
-        margin: auto;
-    }
- }
