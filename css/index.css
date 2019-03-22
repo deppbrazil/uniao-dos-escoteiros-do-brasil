@@ -1,25 +1,22 @@
+/* container feeedback para telas muito pequenas - width < 319px */
+
 .container-small-screen {
     display: none;
 }
 
+/* imagem background */
 body {
     background-image: url("../images/tinypng/background-init.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+/* título */
 .title {
     font-size: 6vw;
 }
 
-iframe {
-    border: 10px solid #000000;
-    background-color: #000000;
-    border-radius: 10px;
-    width: 100%;
-    height: 50vh;
-}
-
+/* container do botão - começe sua trilha */
 .container-button {
     display: flex;
     flex-direction: row;
@@ -27,6 +24,7 @@ iframe {
     align-items: center;
 }
 
+/* botão - começe sua trilha */
 button {
     background-color: orange !important;
 }

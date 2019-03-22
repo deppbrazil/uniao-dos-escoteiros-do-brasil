@@ -1,0 +1,15 @@
+@media only screen and (max-width:992px) {
+    /* video fixo */
+    .video-fixed {
+        width: 90%;
+        height: auto;
+        position: relative;
+        display: block;
+        left: 0;
+    }
+
+    /* container da lista */
+    .container-content {
+        width: 100%;
+    }
+}

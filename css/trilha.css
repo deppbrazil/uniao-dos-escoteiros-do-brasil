@@ -1,29 +1,42 @@
+/* imagem background */
 body {
-    background-image: url("../images/tinypng/image-trilha.png");
+    background-image: url("../images/tinypng/image-trilha.jpg");
     background-size: cover;
 }
 
+/* video fixo */
+.video-fixed {
+    width: 40%;
+    height: 100vh;
+    left: 50%;
+    position: fixed;
+    margin: 0 5% 0 5%;
+}
+
+/* container da lista */
 .container-content {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/* container dos items */
 .container-item {
-    box-shadow: 0 2px 0 rgba(170, 163, 163, 0.12), 0 2px 0 rgba(255, 255, 255, 0.541);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     border-radius: 5px;
     margin: 5px;
 }
 
+/* efeito container items */
 .container-item:hover {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
-    background-color: rgba(255, 255, 255, 0.527);
+    background-color: rgba(255, 255, 255, 0.24);
     border-radius: 5px;
 }
 
+/* items da lista  */
 .item-list {
     padding: 0px 10px 0px 10px;
     cursor: pointer;
@@ -33,17 +46,19 @@ body {
     align-items: center;
 }
 
+/* bullet do item */
 .icon-list {
-    margin: 5px;
-    padding: 5px;
+    padding: 0 10px 0 0;
 }
 
+/* último item da lista */
 .last-item {
     margin-bottom: 8vh;
 }
 
-.footer-section{
-    height: 20vh;
+/* rodapé */
+.footer-section {
+    height: 8vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
