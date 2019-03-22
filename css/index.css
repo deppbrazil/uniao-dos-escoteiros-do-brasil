@@ -20,6 +20,13 @@ iframe {
     height: 50vh;
 }
 
+.container-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 button {
     background-color: orange !important;
 }

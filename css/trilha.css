@@ -41,7 +41,9 @@ body {
 .last-item {
     margin-bottom: 8vh;
 }
+
 .footer-section{
+    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: center;

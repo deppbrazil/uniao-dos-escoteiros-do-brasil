@@ -9,3 +9,11 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.icon-home {
+    font-size: 35px !important;
+}
+
+.text-home {
+    font-size: 25px !important;
+}
