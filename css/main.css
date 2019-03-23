@@ -1,13 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 body {
-    background-color: #000000;
+    background-color: #ebebeb;
     width: 100vw;
     height: 100vh;
+}
+
+/* cor padrão de todos os textos */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+p,
+a {
+    color: rgba(0, 0, 0, 0.70) !important;
+}
+
+/* icon home */
+#logo-container {
+    margin-left: 3%;
 }
 
 /* vídeos */
@@ -29,3 +45,12 @@ iframe {
 .text-home {
     font-size: 25px !important;
 }
+
+/* bullets sliders */
+li.indicator-item {
+    background-color: silver !important;
+} 
+
+li.indicator-item.active {
+    background-color: rgb(0, 174, 255) !important;
+} 

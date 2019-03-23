@@ -5,16 +5,21 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Como escrever projetos sociais</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
    
     <!-- my css -->
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../css/swiper.css" />
     <link rel="stylesheet" type="text/css" href="../css/como-escrever-projetos-sociais.css" />
+    <link rel="stylesheet" type="text/css" href="../css/como-escrever-projetos-sociais-media-queries.css" />
     
     <!-- css materialize-css -->
     <link rel="stylesheet" type="text/css" href="../node_modules/materialize-css/dist/css/materialize.min.css" />
     <link rel="stylesheet" type="text/css" href="../node_modules/material-icons/iconfont/material-icons.css" />
+
+    <!-- css swiperJS -->
+    <link rel="stylesheet" type="text/css" href="../node_modules/swiper/dist/css/swiper.min.css" />
 
     <!-- my js -->
     <script type="text/javascript" src="../js/function.js"></script>
@@ -52,28 +57,115 @@
             
         </div>
     </nav>
+     
+    <!-- Swiper -->
+    <h4 class="header center">Como escrever projetos sociais</h4>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="container-swiper">
+                    <div class="container margin-container">
+                    <p style="text-align:left" class="col s12 light">
+                        <i class="material-icons">check</i>
+                        Conhecer a realidade local onde se pretende desenvolver um projeto é  fundamental para qualquer planejamento.
+                    </p>
+                            
+                    <p style="text-align:left" class="col s12 light">
+                        <i class="material-icons">check</i>
+                        Por isso, nosso primeiro passo nesta trilha é saber sobre como fazer um diagnóstico social para que as propostas do projeto estejam condizentes com as necessidades e demandas do território em que se tem intenção de atuar. 
+                    </p>
+                    
+                    <p style="text-align:left" class="col s12 light">
+                        <i class="material-icons">check</i>
+                        Mais importante que apenas conhecer as ferramentas, é colocar as mãos à obra!
+                    </p>
+                    
+                    <p class="col s12 bold purple-text">
+                        Faça download das ferramentas e comece a praticar.
+                    </p>
+                    
+                    <a href="https://www.escoteirosead.org.br/conteudo/MRME_CEPS_ferramentas_diagnosticos_sociais.pdf">
+                        <p style="text-align:left" class="col s12 light">
+                            <i class="material-icons">attach_file</i>
+                            ANEXO 1: Diagnósticos:
+                        </p>
+                    </a>
+                    
+                    <a href="https://www.escoteirosead.org.br/conteudo/MRME_CEPS_entrevista.pdf">
+                        <p style="text-align:left" class="col s12 light">
+                            <i class="material-icons">attach_file</i>
+                            ANEXO 2: SUGESTÃO DE PERGUNTAS PARA ROTEIRO DE ENTREVISTAS
+                        </p>
+                    </a>
+                    
+                    <a href="https://www.escoteirosead.org.br/conteudo/MRME_CEPS_reuniao_comunitaria.pdf">
+                        <p style="text-align:left" class="col s12 light">
+                            <i class="material-icons">attach_file</i>
+                            ANEXO 03 – ORGANIZANDO UMA REUNIÃO COMUNITÁRIA EM 10 PASSOS
+                        </p>
+                    </a>
+                    </div>
+                    <div class="container margin-container">
+                        <iframe width="640" height="564" src="https://player.vimeo.com/video/325555868" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+                    </div>
+                </div>
+            </div>
 
-    <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-            <h4 class="header left black-text">Como escrever projetos sociais</h4>
-            <div class="row left">
-                <p class="header col s12 light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            <div class="swiper-slide">
+                <div class="container-swiper">
+                    <p>texto1</p>
+                    <p>texto2</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="container-swiper">
+                    <p>texto1</p>
+                    <p>texto2</p>
+                </div>
             </div>
         </div>
+
+        <!-- bullets -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- setas -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 
      <!-- js materialize-css -->
      <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
      <script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
     
+     <!-- js swiperJS -->
+     <script type="text/javascript" src="../node_modules/swiper/dist/js/swiper.min.js"></script>
+
      <!-- init -->
      <script>
+        // materialize //
         (function($){
             $(function(){
                 $('.sidenav').sidenav();
             });
-        })(jQuery); 
-     </script>
+        })(jQuery);
 
+        // swiper //
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 </html>
