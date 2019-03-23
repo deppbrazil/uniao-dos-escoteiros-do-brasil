@@ -1,6 +1,6 @@
 # União dos Escoteiros do Brasil #
 
-[![Banner](images/tinypng/background-init.jpg)](https://deppbrazil.github.io/uniao-dos-escoteiros-do-brasil/)
+[![Banner](images/tinypng/background-init.jpg)](https://www.deppbrazil.com.br/projetos/uniao-dos-escoteiros-do-brasil)
 
 ### Get started ###
 * yarn install
