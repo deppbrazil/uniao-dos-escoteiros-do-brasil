@@ -1,3 +1,10 @@
+/* imagem background */
+body {
+    background-image: url("../images/tinypng/img-rota2.jpg");
+    background-size: auto;
+    background-repeat: repeat;
+}
+
 .margin-container {
     margin: 15px !important;
 }

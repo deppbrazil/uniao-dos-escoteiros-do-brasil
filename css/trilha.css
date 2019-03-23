@@ -2,6 +2,7 @@
 body {
     background-image: url("../images/tinypng/image-trilha.jpg");
     background-size: cover;
+    background-repeat: repeat;
 }
 
 /* video fixo */
