@@ -11,11 +11,6 @@ body {
     background-repeat: no-repeat;
 }
 
-/* título */
-.title {
-    font-size: 6vw;
-}
-
 /* container do botão - começe sua trilha */
 .container-button {
     display: flex;
