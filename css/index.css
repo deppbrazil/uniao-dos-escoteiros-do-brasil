@@ -1,5 +1,4 @@
 /* container feeedback para telas muito pequenas - width < 319px */
-
 .container-small-screen {
     display: none;
 }
@@ -21,5 +20,5 @@ body {
 
 /* botão - começe sua trilha */
 button {
-    background-color: orange !important;
+    background-color: #ffd600 !important;
 }

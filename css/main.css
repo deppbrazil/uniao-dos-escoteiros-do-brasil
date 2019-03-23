@@ -9,6 +9,17 @@ body {
     height: 100vh;
 }
 
+/* header fixo */
+nav {
+    position: fixed;
+    z-index: 999;
+}
+
+/* recuo do títul por causa do header fixo */
+.container-padding {
+    padding: 80px 0 0 0;
+}
+
 /* cor padrão de todos os textos */
 h1, 
 h2, 

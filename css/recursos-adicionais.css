@@ -1,5 +1,3 @@
-p {
-    color: black;
-    font-size: 30px;
-    line-height: 40px;
+.margin-container {
+    margin: 15px !important;
 }
