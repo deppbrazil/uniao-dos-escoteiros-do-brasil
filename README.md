@@ -21,4 +21,4 @@
 * Recursos adicionais `#827717 lime darken-4` 
 
 ### Product roadmap ###
-[![Banner](images/projeto-mrme.jpg)](https://github.com/deppbrazil/uniao-dos-escoteiros-do-brasil)
+[![Banner](images/tinypng/projeto-mrme.jpg)](https://github.com/deppbrazil/uniao-dos-escoteiros-do-brasil)

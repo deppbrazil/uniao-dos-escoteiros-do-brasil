@@ -34,13 +34,7 @@ a {
 
 /* título H1 */
 .title-large {
-    font-size: 6vw;
-}
-.title-medium {
-    font-size: 2.9em;
-}
-.title-small {
-    font-size: 1.3em;
+    font-size: 4em;
 }
 
 /* icon home */
