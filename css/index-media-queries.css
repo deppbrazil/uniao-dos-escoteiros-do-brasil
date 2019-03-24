@@ -28,3 +28,18 @@
         padding: 10px;
     }
 }
+
+/* desktop + */
+@media only screen and (min-width:992px) {
+
+}
+
+/* mobile e tablet */
+@media only screen and (max-width:992px) {
+    /* logos */
+    .logo {
+        width: 100px;
+    }
+    
+}
+

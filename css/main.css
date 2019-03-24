@@ -9,6 +9,41 @@ body {
     height: 100vh;
 }
 
+/* logos */
+.header-logo {
+    width: auto;
+    height: auto;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.container-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    width: 120px;
+}
+
+.line {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 1px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.line.black-line {
+    background-color: #000000b3;
+    border-radius: 5px;
+    width: 1px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
 /* header fixo */
 nav {
     position: fixed;
@@ -28,13 +63,14 @@ h4,
 h5, 
 h6,
 p,
-a {
-    color: rgba(0, 0, 0, 0.70) !important;
+a,
+.copyright-text {
+    color: #000000b3 !important;
 }
 
 /* título H1 */
 .title-large {
-    font-size: 4em;
+    font-size: 6vw;
 }
 
 /* icon home */
@@ -70,3 +106,12 @@ li.indicator-item {
 li.indicator-item.active {
     background-color: rgb(0, 174, 255) !important;
 } 
+
+/* icon home footer */
+.text-home-footer {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

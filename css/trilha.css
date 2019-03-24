@@ -43,13 +43,3 @@ body {
 .last-item {
     margin-bottom: 8vh;
 }
-
-/* rodapé */
-.footer-section {
-    height: 8vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
