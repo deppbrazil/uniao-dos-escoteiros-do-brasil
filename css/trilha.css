@@ -34,6 +34,12 @@ body {
     align-items: center;
 }
 
+/* margin span rota */
+.span-margin {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 /* bullet do item */
 .icon-list {
     padding: 0 10px 0 0;

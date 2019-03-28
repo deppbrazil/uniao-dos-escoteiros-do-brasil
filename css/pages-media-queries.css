@@ -5,14 +5,5 @@
 
 /* mobile e tablet */
 @media only screen and (max-width:992px) {
-  .container-swiper {
-    width: 90%;
-    margin: auto;
-    margin-bottom: 10%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  
 }

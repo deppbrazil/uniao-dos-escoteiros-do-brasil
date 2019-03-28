@@ -44,7 +44,7 @@ body {
     margin-right: 5px;
 }
 
-/* header fixo */
+/* nav fixo */
 nav {
     position: fixed;
     z-index: 999;
@@ -54,6 +54,14 @@ nav {
 .container-padding {
     padding: 80px 0 0 0;
 }
+
+/* container do swiper */
+.container-swiper {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10%;
+    height: auto;
+  }
 
 /* cor padrão de todos os textos */
 h1, 
