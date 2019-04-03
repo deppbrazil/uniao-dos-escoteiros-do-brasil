@@ -1,0 +1,16 @@
+/* imagem background */
+body {
+    background-image: url("../images/tinypng/recursos-adicionais.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.div-scroll {
+    border: 1px solid #827717;
+    border-radius: 8px;
+    padding: 20px 50px 20px 50px;
+    height: 70vh;
+    width: 100%;
+    overflow-y: auto;
+    background-color: #82771717;
+}

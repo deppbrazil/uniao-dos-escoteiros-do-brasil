@@ -44,18 +44,18 @@ body {
     margin-right: 5px;
 }
 
-/* nav fixo */
+/* fixed nav */
 nav {
     position: fixed;
     z-index: 999;
 }
 
-/* recuo do títul por causa do header fixo */
+/* margin title because fixed header */
 .container-padding {
     padding: 80px 0 0 0;
 }
 
-/* container do swiper */
+/* container swiper */
 .container-swiper {
     width: 90%;
     margin: auto;
@@ -106,14 +106,21 @@ iframe {
     font-size: 25px !important;
 }
 
-/* bullets sliders */
-li.indicator-item {
-    background-color: silver !important;
-} 
+/* arrows navigation */
+.swiper-button-next {
+    background-image: url("../icons/arrow-next.svg") !important;
+}
 
-li.indicator-item.active {
-    background-color: rgb(0, 174, 255) !important;
-} 
+.swiper-button-prev {
+    background-image: url("../icons/arrow-prev.svg") !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev
+ {
+    background-size: cover !important;
+    background-repeat: repeat !important;
+}
 
 /* icon home footer */
 .text-home-footer {
