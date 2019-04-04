@@ -1,16 +1,33 @@
-/* container feeedback para telas muito pequenas - width < 319px */
+/* preloader */
+#preloader {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(64, 22, 133);
+    z-index: 9999;
+}
+#preloader .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+/* container feeedback screens <= 319px */
 .container-small-screen {
     display: none;
 }
 
-/* imagem background */
+/* image background */
 body {
     background-image: url("../images/tinypng/background-init.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* container do botão - começe sua trilha */
+/* container button - começe sua trilha */
 .container-button {
     display: flex;
     flex-direction: row;
@@ -18,7 +35,7 @@ body {
     align-items: center;
 }
 
-/* botão - começe sua trilha */
+/* button - começe sua trilha */
 button {
     background-color: #ffd600 !important;
 }

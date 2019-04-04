@@ -1,11 +1,28 @@
-/* imagem background */
+/* preloader */
+#preloader {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(160, 146, 20);
+    z-index: 9999;
+}
+#preloader .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+/* image background */
 body {
     background-image: url("../images/tinypng/image-trilha.jpg");
     background-size: cover;
     background-repeat: repeat;
 }
 
-/* video fixo */
+/* video fixed */
 .video-fixed {
     width: 40%;
     height: 100vh;
@@ -14,7 +31,7 @@ body {
     margin: 0 5% 0 5%;
 }
 
-/* container da lista */
+/* container list */
 .container-content {
     width: 50%;
     margin-left: 3%;
@@ -24,7 +41,7 @@ body {
     align-items: center;
 }
 
-/* items da lista  */
+/* items list  */
 .item-list {
     padding: 0px 10px 0px 10px;
     cursor: pointer;
@@ -40,12 +57,12 @@ body {
     margin-bottom: 5px;
 }
 
-/* bullet do item */
+/* bullet item */
 .icon-list {
     padding: 0 10px 0 0;
 }
 
-/* último item da lista */
+/* last item list */
 .last-item {
     margin-bottom: 8vh;
 }

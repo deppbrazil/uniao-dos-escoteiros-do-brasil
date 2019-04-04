@@ -18,7 +18,7 @@
 * Rota 6 `#ff6f00 amber darken-4`
 * Rota 7 `#dd2c00 deep-orange accent-4`
 * Encerramento `#827717 lime darken-4`
-* Recursos adicionais `#827717 lime darken-4` 
+* Anexos e Saiba Mais `#827717 lime darken-4` 
 
 ### Product roadmap ###
 [![Banner](images/tinypng/projeto-mrme.jpg)](https://github.com/deppbrazil/uniao-dos-escoteiros-do-brasil)

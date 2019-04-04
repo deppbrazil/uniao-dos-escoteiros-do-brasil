@@ -37,6 +37,61 @@
 <!--  Rota 7 - cor: #dd2c00 deep-orange accent-4 -->
 
 <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <div class="inner">
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-yellow">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-green">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <nav class="#dd2c00 deep-orange accent-4" role="navigation">
         <div class="nav-wrapper container-left"><a id="logo-container" href="../index.html" class="brand-logo"><i class="icon-home material-icons white-text">home</i></a>
             <ul class="right hide-on-med-and-down">
@@ -237,6 +292,13 @@
                 prevEl: '.swiper-button-prev',
             },
         });
+    </script>
+    <script>
+        $(window).on('load', function () {
+          $('#preloader .inner').fadeOut();
+          $('#preloader').delay(500).fadeOut('slow'); 
+          $('body').delay(500).css({'overflow': 'visible'});
+        })
     </script>
 </body>
 </html>

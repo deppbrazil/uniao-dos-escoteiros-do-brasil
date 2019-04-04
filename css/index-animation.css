@@ -1,0 +1,32 @@
+/* button - começe sua trilha */
+button {
+    -webkit-animation-name: enter-elements; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-elements;
+    animation-duration: 2.5s;
+}
+
+@keyframes enter-elements {
+    0%   {
+        background-color: #eb0c0c;
+        left: 200%;
+    }
+    100%  {
+        background-color: #ffd600;
+        left: 0;
+    }
+    
+  }
+
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes enter-elements {
+    0%   {
+        background-color: #eb0c0c;
+        left: 200%;
+    }
+    100%  {
+        background-color: #ffd600;
+        left: 0;
+    }
+    
+  }
