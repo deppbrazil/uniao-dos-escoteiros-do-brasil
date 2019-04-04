@@ -1,32 +1,81 @@
 /* button - começe sua trilha */
 button {
-    -webkit-animation-name: enter-elements; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: enter-elements;
-    animation-duration: 2.5s;
+    -webkit-animation-name: enter-button; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-button;
+    animation-duration: 5s;
+}
+@keyframes enter-button {
+    0%   {
+        background-color: #eb0c0c;
+        left: 100%;
+    }
+    70%  {
+        background-color: #ffd600;
+        left: 0;
+    }
+    
+}
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes enter-button {
+    0%   {
+        background-color: #eb0c0c;
+        left: 100%;
+    }
+    70%  {
+        background-color: #ffd600;
+        left: 0;
+    }
 }
 
-@keyframes enter-elements {
+/* logo */
+.header-logo {
+    -webkit-animation-name: enter-logo; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-logo;
+    animation-duration: 3s;
+}
+@keyframes enter-logo {
     0%   {
-        background-color: #eb0c0c;
-        left: 200%;
+        left: -100%;
     }
     100%  {
-        background-color: #ffd600;
         left: 0;
     }
     
-  }
-
+}
 /* webkit safari 4.0 - 8.0 */
-@-webkit-keyframes enter-elements {
+@-webkit-keyframes enter-logo {
     0%   {
-        background-color: #eb0c0c;
-        left: 200%;
+        left: -100%;
     }
     100%  {
-        background-color: #ffd600;
         left: 0;
     }
+}
+
+/* titles */
+.title-animation {
+    -webkit-animation-name: titles; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: titles;
+    animation-duration: 5s;
+}
+@keyframes titles {
+    0%   {
+        margin-right: -100%;
+    }
+    100%  {
+        margin-right: 0;
+    }
     
-  }
+}
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes titles {
+    0%   {
+        margin-right: -100%;
+    }
+    100%  {
+        margin-right: 0;
+    }
+}
