@@ -1,9 +1,9 @@
 /* button - começe sua trilha */
 button {
     -webkit-animation-name: enter-button; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.9s; /* Safari 4.0 - 8.0 */
     animation-name: enter-button;
-    animation-duration: 5s;
+    animation-duration: 0.9s;
 }
 @keyframes enter-button {
     0%   {
@@ -31,9 +31,9 @@ button {
 /* logo */
 .header-logo {
     -webkit-animation-name: enter-logo; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
     animation-name: enter-logo;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 @keyframes enter-logo {
     0%   {
@@ -57,9 +57,9 @@ button {
 /* titles */
 .title-animation {
     -webkit-animation-name: titles; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
     animation-name: titles;
-    animation-duration: 5s;
+    animation-duration: 1.2s;
 }
 @keyframes titles {
     0%   {

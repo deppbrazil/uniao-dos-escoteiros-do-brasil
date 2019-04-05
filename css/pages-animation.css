@@ -1,0 +1,78 @@
+/* animation header */
+nav {
+    -webkit-animation-name: enter-nav; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2.5s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-nav;
+    animation-duration: 2.5s;
+}
+@keyframes enter-nav {
+    0%   {
+        top: -100%;
+    }
+    70%  {
+        top: 0;
+    }
+    
+}
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes enter-nav {
+    0%   {
+        top: -100%;
+    }
+    70%  {
+        top: 0;
+    }
+}
+
+/* animation title */
+h2 { 
+    -webkit-animation-name: enter-title-h2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-title-h2;
+    animation-duration: 2s;
+}
+@keyframes enter-title-h2 {
+    0%   {
+        margin-top: 30%;
+    }
+    60%  {
+        margin-top: 0;
+    }
+    
+}
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes enter-title-h2 {
+    0%   {
+        margin-top: 30%;
+    }
+    60%  {
+        margin-top: 0;
+    }
+}
+
+/* animation content */
+.swiper-container {
+    -webkit-animation-name: enter-content; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-content;
+    animation-duration: 1.5s;
+}
+
+@keyframes enter-content {
+    0%   {
+        margin-left: 50%;
+    }
+    30%  {
+        margin-left: 0;
+    }
+    
+}
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes enter-content {
+    0%   {
+        margin-left: 50%;
+    }
+    30%  {
+        margin-left: 0;
+    }
+}

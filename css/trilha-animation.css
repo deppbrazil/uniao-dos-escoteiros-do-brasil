@@ -1,0 +1,51 @@
+/* animation title */
+h1 { 
+    -webkit-animation-name: enter-title-h2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-title-h2;
+    animation-duration: 2s;
+}
+@keyframes enter-title-h2 {
+    0%   {
+        margin-top: 30%;
+    }
+    60%  {
+        margin-top: 0;
+    }
+    
+}
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes enter-title-h2 {
+    0%   {
+        margin-top: 30%;
+    }
+    60%  {
+        margin-top: 0;
+    }
+}
+
+/* animation list */
+ul { 
+    -webkit-animation-name: enter-list; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: enter-list;
+    animation-duration: 2s;
+}
+@keyframes enter-list {
+    0%   {
+        margin-left: 50%;
+    }
+    60%  {
+        margin-left: 0;
+    }
+    
+}
+/* webkit safari 4.0 - 8.0 */
+@-webkit-keyframes enter-list {
+    0%   {
+        margin-left: 50%;
+    }
+    60%  {
+        margin-left: 0;
+    }
+}
