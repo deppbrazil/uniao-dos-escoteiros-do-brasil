@@ -50,12 +50,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-}
-
-/* margin span rota */
-.span-margin {
-    margin-right: 5px;
-    margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
 /* bullet item */
