@@ -11,7 +11,7 @@ body {
 
 /* brands */
 .header-logo {
-    width: auto;
+    width: 100%;
     height: auto;
     position: absolute;
     margin-left: 10px;
@@ -20,11 +20,17 @@ body {
 .container-logos {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
 }
+.logos-left {
+    justify-content: flex-start;
+}
+.logos-right {
+    justify-content: center;
+    margin-left: 40%;
+}
 .logo {
-    width: 120px;
+    width: 10vh !important;
 }
 
 .line {
@@ -131,6 +137,10 @@ iframe {
     position: fixed !important;
     height: 90px !important;
     width: 30px !important;
+}
+
+.swiper-button-disabled {
+    opacity: 0 !important;
 }
 
 /* bullets */ 

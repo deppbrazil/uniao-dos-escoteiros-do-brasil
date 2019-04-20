@@ -30,9 +30,6 @@
 
     <!-- css swiperJS -->
     <link rel="stylesheet" type="text/css" href="../node_modules/swiper/dist/css/swiper.min.css" />
-
-    <!-- my js -->
-    <script type="text/javascript" src="../js/function.js"></script>
 </head>
 
 <!--  Rota 5 - cor: #ffff00 yellow accent-2 -->
@@ -271,8 +268,8 @@
     </div>
 
     <!-- arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next goTop"></div>
+    <div class="swiper-button-prev goTop"></div>
 
     <!-- footer -->
     <footer class="page-footer #ffff00 yellow accent-2">
@@ -345,13 +342,20 @@
                 prevEl: '.swiper-button-prev',
             },
         });
-    </script>
-    <script>
+
+        // preloader //
         $(window).on('load', function () {
-          $('#preloader .inner').fadeOut();
-          $('#preloader').delay(500).fadeOut('slow'); 
-          $('body').delay(500).css({'overflow': 'visible'});
+            $('#preloader .inner').fadeOut();
+            $('#preloader').delay(500).fadeOut('slow'); 
+            $('body').delay(500).css({'overflow': 'visible'});
         })
+
+        // arrows prev and next go-top //
+        $(document).ready(function(){
+            $('.goTop').click(function(){
+            $('html,body').animate({scrollTop: 0},'slow');
+            });
+        });
     </script>
 </body>
 </html>

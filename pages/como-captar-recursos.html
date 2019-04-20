@@ -30,9 +30,6 @@
 
     <!-- css swiperJS -->
     <link rel="stylesheet" type="text/css" href="../node_modules/swiper/dist/css/swiper.min.css" />
-
-    <!-- my js -->
-    <script type="text/javascript" src="../js/function.js"></script>
 </head>
 
 <!--  Rota 2 - cor: #01579b light-blue darken-4 -->
@@ -218,6 +215,9 @@
                         Navegue pelos editais disponíveis, fala uma lista daqueles que achou interessante, converse com seu time, sonhe e depois planeje!
                     </p>
                         </br>
+                    <h5 style="text-align:left" class="flow-text">
+                        Aproveite e fique por dentro das nossas novidades assinando a <b class="#01579b light-blue-text text-darken-4">newsletter</b> do Mobiliza Escoteiros
+                    </h5>
                     </div>
                 </div>
             </div>
@@ -232,9 +232,13 @@
                     </p>
                         </br>    
                     <p style="text-align:left" class="flow-text col s12 light">
-                        <i class="material-icons">keyboard_arrow_right</i>
+                        <i class="material-icons">play_circle_outline</i>
                         Para saber mais sobre esse assunto, assista a entrevista realizada com a advogada Vanessa Pancioni, mestre em Direito Político e Econômico, especialista em direito constitucional e diretora de cursos preparatórios da rede de instituição especializada em direito Damásio Educacional.
                     </p>
+                        </br>
+                    <div class="container">
+                        <iframe width="640" height="564" src="https://player.vimeo.com/video/325555341" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+                    </div>
                         </br>
                     <h5 style="text-align:left" class="#01579b light-blue-text text-darken-4">
                         Aprender fazendo:
@@ -256,10 +260,6 @@
                         <i class="material-icons">keyboard_arrow_right</i> 
                         Veja os projetos aprovados pelo FIA e como é possível fazer doações e fique preparado para orientar possíveis doadores
                     </p>
-                        </br>
-                    <div class="container">
-                        <iframe width="640" height="564" src="https://player.vimeo.com/video/325555341" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-                    </div>
                         </br>
                     </div>
                 </div>
@@ -369,8 +369,8 @@
     </div>
 
     <!-- arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next goTop"></div>
+    <div class="swiper-button-prev goTop"></div>
 
     <!-- footer -->
     <footer class="page-footer #01579b light-blue darken-4">
@@ -443,13 +443,20 @@
                 prevEl: '.swiper-button-prev',
             },
         });
-    </script>
-    <script>
+
+        // preloader //
         $(window).on('load', function () {
-          $('#preloader .inner').fadeOut();
-          $('#preloader').delay(500).fadeOut('slow'); 
-          $('body').delay(500).css({'overflow': 'visible'});
+            $('#preloader .inner').fadeOut();
+            $('#preloader').delay(500).fadeOut('slow'); 
+            $('body').delay(500).css({'overflow': 'visible'});
         })
+
+        // arrows prev and next go-top //
+        $(document).ready(function(){
+            $('.goTop').click(function(){
+            $('html,body').animate({scrollTop: 0},'slow');
+            });
+        });
     </script>
 </body>
 </html>

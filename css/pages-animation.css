@@ -25,6 +25,7 @@ nav {
 }
 
 /* animation title */
+h1,
 h2 { 
     -webkit-animation-name: enter-title-h2; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */

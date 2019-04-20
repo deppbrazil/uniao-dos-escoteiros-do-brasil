@@ -1,0 +1,44 @@
+/* preloader */
+#preloader {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+}
+#preloader .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+/* image background */
+body {
+    /*background-image: url("../images/tinypng/");
+    background-size: cover;
+    background-repeat: repeat;*/
+    background-color: #ffffff;
+}
+
+.card {
+    padding: 10%;
+}
+
+.title {
+    font-size: 3.6em;
+    max-width: 65%;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #ee6e73 !important;
+}
