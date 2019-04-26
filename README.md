@@ -7,7 +7,7 @@
 * or npm install
 
 ### Demo ###
-* [Project](https://www.deppbrazil.com.br/projetos/uniao-dos-escoteiros-do-brasil)
+* [Project](https://www.deppbrazil.com/projects/escoteiros/)
 
 ### Color Palette ###
 * Trilha 1 `#6a1b9a purple darken-3`
